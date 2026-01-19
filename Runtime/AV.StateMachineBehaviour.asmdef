@@ -1,13 +1,16 @@
-name: AV.StateMachineBehaviour
-rootNamespace: AV.StateMachineBehaviour
-references:
-- AV.Unity.Extend.Runtime
-includePlatforms: []
-excludePlatforms: []
-allowUnsafeCode: false
-overrideReferences: false
-precompiledReferences: []
-autoReferenced: true
-defineConstraints: []
-versionDefines: []
-noEngineReferences: false
+{
+    "name": "AV.StateMachineBehaviour",
+    "rootNamespace": "AV.StateMachineBehaviour",
+    "references": [
+        "AV.Unity.Extend.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
