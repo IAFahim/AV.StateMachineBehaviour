@@ -1,0 +1,29 @@
+{
+  "name": "com.av.statemachinebehaviour",
+  "version": "1.0.0",
+  "displayName": "AV State Machine Behaviour",
+  "description": "State machine behaviour component for managing character combat states and animations.",
+  "unity": "2021.3",
+  "author": {
+    "name": "IAFahim",
+    "email": "iafahim.dev@gmail.com",
+    "url": "https://github.com/IAFahim"
+  },
+  "keywords": [
+    "state-machine",
+    "ai",
+    "combat",
+    "animations"
+  ],
+  "license": "MIT",
+  "category": "Gameplay",
+  "dependencies": {
+    "com.av.unity.extend": "1.0.0"
+  },
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAFahim/AV.StateMachineBehaviour"
+  },
+  "licensesUrl": "https://github.com/IAFahim/AV.StateMachineBehaviour/blob/main/LICENSE.md"
+}
