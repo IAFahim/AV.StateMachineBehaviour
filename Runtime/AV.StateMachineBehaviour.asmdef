@@ -1,0 +1,17 @@
+{
+  "name": "AV.StateMachineBehaviour",
+  "rootNamespace": "",
+  "references": [
+    "GUID:30e6472ec704f424f94b960a87a4a566",
+    "GUID:929b1c5321c241359062c6fbb7e57f40"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

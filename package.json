@@ -1,0 +1,25 @@
+{
+  "name": "com.av.statemachinebehaviour",
+  "version": "1.0.0",
+  "displayName": "AV.StateMachineBehaviour",
+  "description": "StateMachineBehaviour helpers for Unity with caching and combat system integration",
+  "unity": "2022.3",
+  "author": {
+    "name": "IAFahim",
+    "email": "iafahim.dev@gmail.com",
+    "url": "https://github.com/IAFahim"
+  },
+  "keywords": [
+    "animator",
+    "state-machine",
+    "combat",
+    "caching",
+    "integration"
+  ],
+  "license": "MIT",
+  "category": "Gameplay",
+  "dependencies": {
+    "com.av.unity.extend": "1.0.0"
+  },
+  "samples": []
+}
