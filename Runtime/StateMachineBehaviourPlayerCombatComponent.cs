@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 namespace AV.StateMachineBehaviour.Runtime
 {
-    [HelpURL("https://github.com/IAFahim/AV.StateMachineBehaviour")]
     public class StateMachineBehaviourPlayerCombatComponent : UnityEngine.StateMachineBehaviour
     {
         private static readonly Dictionary<EntityId, PlayerCombatComponent> Lookup = new();

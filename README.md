@@ -1,49 +1,37 @@
-# AV State Machine Behaviour
+# AV.StateMachineBehaviour
 
-State machine behaviour component for managing character combat states and animations.
+[![Unity Version](https://img.shields.io/badge/Unity-2022.3%2B-blue.svg)](https://unity3d.com/get-unity/download)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
+[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)](CHANGELOG.md)
 
-![Unity Version](https://img.shields.io/badge/unity-2021.3%2B-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-orange.svg)
+StateMachineBehaviour helpers for Unity with caching and combat system integration.
 
 ## Features
 
-- **Professional Quality**: Built following Unity Package Manager best practices
-- **Well Documented**: Comprehensive documentation and examples
-- **Production Ready**: Tested and optimized for production use
+- StateMachineBehaviourPlayerCombatComponent for combat state handling
+- Component caching with AV.Unity.Extend integration
+- Tag-based state filtering
+- Automatic cache cleanup on scene changes
+- Optimized for combat systems using Animator
 
 ## Installation
 
-Install this package via Unity Package Manager by adding this line to your `Packages/manifest.json`:
-
-```json
-"com.av.statemachinebehaviour": "https://github.com/IAFahim/AV.StateMachineBehaviour.git"
 ```
-
-Or install via Git URL in Unity Package Manager:
-1. Open Unity Package Manager (Window > Package Manager)
-2. Click the + icon > Add package from git URL
-3. Enter: `https://github.com/IAFahim/AV.StateMachineBehaviour.git`
-
-## Requirements
-
-- Unity 2021.3 or higher
-- Dependencies will be automatically resolved by Unity Package Manager
+Window > Package Manager > + > Add package from git URL
+```
+```
+https://github.com/IAFahim/AV.StateMachineBehaviour.git
+```
 
 ## Usage
 
-Add components from the `AV State Machine Behaviour` package to your GameObjects via the Component menu:
-`Component > AV > State Machine Behaviour > [Component Name]`
+```csharp
+using AV.StateMachineBehaviour.Runtime;
 
-For detailed usage instructions, see the [Samples](Samples~) included with this package.
-
-## API Documentation
-
-For complete API reference and documentation, visit: https://github.com/IAFahim/AV.StateMachineBehaviour
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+// Add StateMachineBehaviourPlayerCombatComponent to your Animator state
+// Configure tag in Inspector (default: "Attack")
+// Will call AttackFinished() on PlayerCombatComponent when state exits
+```
 
 ## License
 
@@ -51,12 +39,4 @@ MIT License - see [LICENSE.md](LICENSE.md) for details.
 
 ## Author
 
-IAFahim - [https://github.com/IAFahim](https://github.com/IAFahim)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Support
-
-For issues and questions, please use the [GitHub Issues](https://github.com/IAFahim/AV.StateMachineBehaviour/issues) page.
+**IAFahim** - [GitHub](https://github.com/IAFahim)
