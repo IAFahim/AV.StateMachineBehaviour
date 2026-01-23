@@ -1,7 +1,7 @@
 {
   "name": "com.av.statemachinebehaviour",
   "version": "1.0.0",
-  "displayName": "AV.StateMachineBehaviour",
+  "displayName": "AV StateMachineBehaviour",
   "description": "StateMachineBehaviour helpers for Unity with caching and combat system integration",
   "unity": "2022.3",
   "author": {
@@ -21,5 +21,9 @@
   "dependencies": {
     "com.av.unity.extend": "1.0.0"
   },
-  "samples": []
+  "samples": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAFahim/AV.StateMachineBehaviour"
+  }
 }

@@ -1,42 +1,31 @@
 # AV.StateMachineBehaviour
 
-[![Unity Version](https://img.shields.io/badge/Unity-2022.3%2B-blue.svg)](https://unity3d.com/get-unity/download)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
-[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)](CHANGELOG.md)
+![Header](documentation_header.svg)
 
-StateMachineBehaviour helpers for Unity with caching and combat system integration.
+[![Unity](https://img.shields.io/badge/Unity-2022.3%2B-000000.svg?style=flat-square&logo=unity)](https://unity.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE.md)
 
-## Features
+Animator state machine helpers with component caching.
 
-- StateMachineBehaviourPlayerCombatComponent for combat state handling
-- Component caching with AV.Unity.Extend integration
-- Tag-based state filtering
-- Automatic cache cleanup on scene changes
-- Optimized for combat systems using Animator
+## ✨ Features
 
-## Installation
+- **Combat Integration**: `StateMachineBehaviourPlayerCombatComponent` triggers logic on state exit.
+- **Caching**: Uses `AV.Unity.Extend` to cache component references, avoiding `GetComponent` in `OnStateUpdate`.
 
-```
-Window > Package Manager > + > Add package from git URL
-```
-```
-https://github.com/IAFahim/AV.StateMachineBehaviour.git
-```
+## 📦 Installation
 
-## Usage
+Install via Unity Package Manager (git URL).
 
-```csharp
-using AV.StateMachineBehaviour.Runtime;
+### Dependencies
+- **AV.Unity.Extend**
 
-// Add StateMachineBehaviourPlayerCombatComponent to your Animator state
-// Configure tag in Inspector (default: "Attack")
-// Will call AttackFinished() on PlayerCombatComponent when state exits
-```
+## 🚀 Usage
 
-## License
+1. Select an Animator State.
+2. Add `StateMachineBehaviourPlayerCombatComponent`.
+3. Configure the tag (e.g., "Attack").
 
-MIT License - see [LICENSE.md](LICENSE.md) for details.
+## ⚠️ Status
 
-## Author
-
-**IAFahim** - [GitHub](https://github.com/IAFahim)
+- 🧪 **Tests**: Missing.
+- 📘 **Samples**: None.
